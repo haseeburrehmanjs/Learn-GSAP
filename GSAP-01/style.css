@@ -14,13 +14,25 @@ body {
 }
 
 #box1 {
-    height: 200px;
-    width: 200px;
+    height: 140px;
+    width: 140px;
     background-color: crimson;
 }
 
 #box2 {
-    height: 200px;
-    width: 200px;
+    height: 140px;
+    width: 140px;
+    background-color: crimson;
+}
+
+#box3 {
+    height: 140px;
+    width: 140px;
+    background-color: crimson;
+}
+
+#box4 {
+    height: 140px;
+    width: 140px;
     background-color: crimson;
 }

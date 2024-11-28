@@ -29,16 +29,64 @@
 // })
 
 
-gsap.to("#box1", {
-    x : 1160,
-    y: 400,
+// gsap.to("#box1", {
+//     x : 1000,
+//     y: 370,
+//     duration : 2, 
+//     delay : 1, 
+//     rotate : 360, 
+//     borderRadius : '50%',
+//     backgroundColor : 'yellow',
+//     repeat : -1,
+//     yoyo: true,
+// })
+
+// gsap.to('#UserName', {
+//     x : 900, 
+//     duration : 2, 
+//     delay : 1, 
+//     color : 'yellow', 
+//     repeat : -1,
+//     yoyo : true
+// })
+
+
+gsap.to('#box1', {
+    x: 1160, 
+    borderRadius : '50%', 
+    rotate : 360,
     duration : 2, 
     delay : 1, 
-    rotate : 360, 
-    borderRadius : '50%',
-    backgroundColor : 'yellow',
     repeat : -1,
-    yoyo: true
+    yoyo : true
 })
 
-console.log('haseeb heree');
+gsap.to('#box2', {
+    x : 1160, 
+    borderRadius : '50%', 
+    rotate : 360, 
+    duration : 2, 
+    delay : 3,
+    repeat : -1,
+    yoyo : true
+})
+
+gsap.to('#box3', {
+    x : 1160,
+    duration : 2, 
+    rotate : 360, 
+    borderRadius : '50%',
+    delay : 5,
+    repeat : -1,
+    yoyo : true
+})
+
+gsap.to('#box4', {
+    x : 1160,
+    duration : 2, 
+    rotate : 360, 
+    borderRadius : '50%',
+    delay : 7,
+    repeat : -1,
+    yoyo : true
+})
